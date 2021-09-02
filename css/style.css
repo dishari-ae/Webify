@@ -1,0 +1,165 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    overflow-x: hidden;
+  }
+  a {
+    color: #000;
+  }
+  
+  a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 360px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #f0f0f0;
+    overflow-y: hidden;
+  }
+
+  .side-menu .logo img {
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 15px;
+    display: block;
+  }
+  
+.side-menu .logo h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    display: block;
+  }
+  
+  .side-menu h1 a, .side-menu h1 a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+  nav a {
+    color: #000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    display: inline-block;
+    padding: 2px;
+}
+
+  .college p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+  }
+  #college {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 400px;
+    background-size: cover;
+    background: fixed; 
+  }
+  #college h1{
+      font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+  #college img{
+    position: relative;
+    height: auto;
+    width: auto;
+    background-size: cover !important;
+    margin: 0 auto;
+  }
+  #college p{
+      margin-top: 20px;
+    margin-right: 40px;
+      font-size: 20px;
+      color: #000;
+  }
+  #dept {
+      position: absolute;
+      top:750px;
+      left: 360px;
+      background-color: aliceblue;
+  }
+  #dept h3 {
+    text-decoration: underline;
+    margin-left: 40px;
+    margin-right: 40px;
+font-size: 25px;
+    color: #000;
+  }
+  #dept p{
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+#dept img{
+    position: relative;
+    left: 40px;
+    height: 300px;
+    width: 400px;
+  margin-bottom: 20px;
+}
+#vision {
+    position: absolute;
+      top:1460px;
+      left: 360px;
+}
+#vision h3{
+    text-decoration: underline;
+    margin-left: 40px;
+    margin-right: 40px;
+font-size: 25px;
+    color: #000;
+}
+#vision p{
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+#mission {
+    position: absolute;
+    top:1580px;
+    left: 360px;
+    background-color: aliceblue;
+}
+#mission h3 {
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+font-size: 25px;
+    color: #000;
+}
+#mission p{
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+@media (max-width: 1002px) {
+    body {
+      overflow-x: hidden;
+    }
+}
